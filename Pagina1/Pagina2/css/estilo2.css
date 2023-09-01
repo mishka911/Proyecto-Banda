@@ -1,0 +1,164 @@
+*{
+  font-family: 'Cinzel', serif;
+  color: black;
+  padding: 0;
+}
+
+body {
+  background-image: url(../imagen/pexels-snapwire-6966.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#menu{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  background-color: black;
+}
+
+#lista{
+  background-color: black;
+}
+
+.dropdown-menu a.dropdown-item{
+  color:aliceblue; /* Cambia aquí al color deseado */
+    transition: color 0.3s;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color:black;
+  color: rgb(56, 68, 230); /* Cambia aquí al color deseado */
+}
+.navbar-brand{
+  filter: invert(100%);
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+table{
+  background-color:rgb(110, 117, 120);
+  border-collapse: collapse;
+   width: 100%;
+}
+
+#tabla{
+text-align: center;
+margin: -220px auto;
+position: absolute;
+  top: 100%;
+}
+
+
+.titulo{
+  background-image: linear-gradient(to bottom, rgb(93, 87, 87), rgb(194, 208, 208));
+  border-bottom:solid 5px #131311;
+  color: aliceblue;
+
+}
+th, td {
+  border: 1px solid black; /* Borde para las celdas */
+  padding: 8px;
+  text-align: center;
+  border-collapse: collapse;
+  color: aliceblue;
+}
+
+/*tr:nth-child(even) {
+  background-color: #369681;
+}*/ /*para colorear las celdas pares*/
+
+tr:hover td{
+  background-color: #4e625e;
+  color: aliceblue; /*resaltar cuando pasa el mouse*/
+}
+
+
+.position{
+  display: flex;
+  position: absolute;
+  align-items: end;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider{
+  background-image: url(../imagen/entrada.jpg);
+background-size: cover;
+height: 53%;
+width: 50%;
+border-radius: 10px;
+animation: animate 20s infinite;
+}
+
+@keyframes animate {
+  20%{
+    background-image: url(../imagen/chester-bennington-muerte.jpg);
+    background-size: cover;
+  }
+
+  30%{
+    background-image: url(../imagen/Mike-Shinoda-de-Linkin-Park-estrena-cancion-en-solitario.jpg);
+    background-size: cover;
+  }
+
+  40%{
+    background-image: url(../imagen/Dave\ Farrell.jpeg);
+    background-size: cover;
+  }
+
+  50%{
+    background-image: url(../imagen/joe\ hahn2.jpeg);
+    background-size: cover;
+  }
+
+  70%{
+    background-image: url(../imagen/Brad\ Delson.jpg);
+    background-size: cover;
+  }
+
+  90%{
+    background-image: url(../imagen/Rob\ Bourdon.jpg);
+    background-size: cover;
+  }
+
+}
+
+
+/*
+.button{
+  border: 0;
+  background-image: linear-gradient(150deg, #100b14, rgb(64, 85, 99), #6c9196);
+  border-radius: 8px;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: .3s;
+
+}
+
+.button:hover {
+  background: none;
+  transition: .3s;
+  background-color: #131311;
+  padding: 16px 24px;
+  border-radius: 6px;
+}
+
+.button:active{
+  transform: scale(0.9);
+}
+
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+*/

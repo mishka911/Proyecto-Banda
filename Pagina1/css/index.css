@@ -1,0 +1,53 @@
+* {
+  background-image: url(..//imagen/pexels-aldiyar-seitkassymov-3100836.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 10px;
+  padding: 0;
+  font-family: 'Cinzel', serif;
+}
+
+.p1 {
+  color: rgb(232, 253, 253);
+  background-color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.p2 {
+  color: rgb(232, 253, 253);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.contenido{
+  display: flex;
+  align-items: center;
+ }
+
+.banda{
+  position: relative;
+margin-right: 10px;
+
+}
+
+.banda img{
+  width: 500px;
+  display: block;
+}
+
+.general{
+  display: flex;
+}
+
+.lista1 a, .lista2 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.lista1, .lista2{
+  color: aliceblue;
+}
