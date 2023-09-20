@@ -16,6 +16,11 @@ body {
   font-weight: bold;
   background-color: black;
 }
+#bt{
+  background-color: rgba(85, 92, 99, 0.475);
+  border-color: aliceblue;
+  border-radius: 10px;
+}
 
 #lista{
   background-color: black;
